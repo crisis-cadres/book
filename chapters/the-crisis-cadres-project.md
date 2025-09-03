@@ -22,7 +22,7 @@ The entire manuscript is available for you to read, critique, and improve. We ar
 
 ## How to Contribute
 
-You do not need to be a software developer to contribute. The process is straightforward. Think of it as a shared document where you can suggest changes. First, visit the project's main page on GitHub, where the most up-to-date version of this guide will always be located. When you identify something you want to improve, such as a simple typo, an unclear sentence, a factual error, or an entire section you believe is missing, you can suggest an edit. On the GitHub page for each chapter, there is an "edit" button that looks like a pencil. Clicking this will allow you to make changes directly in your web browser. After making your edit, you will be asked to briefly describe what you did and why. The final step is to submit the "pull request." This is a formal suggestion which sends your proposed changes to the project maintainers, who will review them, possibly discuss them with you, and merge them into the main document if they align with the project's goals.
+You do not need to be a software developer to contribute. The process is straightforward. Think of it as a shared document where you can suggest changes. First, visit the project's main page on GitHub, where the most up-to-date version of this guide will always be located: https://github.com/crisis-cadres/book. When you identify something you want to improve, such as a simple typo, an unclear sentence, a factual error, or an entire section you believe is missing, you can suggest an edit. On the GitHub page for each chapter, there is an "edit" button that looks like a pencil. Clicking this will allow you to make changes directly in your web browser. After making your edit, you will be asked to briefly describe what you did and why. The final step is to submit the "pull request." This is a formal suggestion which sends your proposed changes to the project maintainers, who will review them, possibly discuss them with you, and merge them into the main document if they align with the project's goals.
 
 We are especially looking for field reports and case studies. If you and your group apply a principle from this guide, such as a bulk-buy, a new committee structure, or a security protocol, we want to know what happened. What worked? What failed spectacularly? Evidence from the real world is the most valuable contribution you can make.
 
@@ -60,6 +60,6 @@ This ensures the work remains free and open for all to use, while preventing it 
 
 ## The Work Begins
 
-This project is a hypothesis: that there are enough people out there who are tired of waiting, tired of the isolating narratives of individualism, and ready to start the hard work of building collective resilience. It's an attempt to find each other and turn shared anxiety into shared action.
+This project is a hypothesis: that there are enough people out there who are tired of waiting, tired of the isolating narratives of individualism, and ready to start the hard work of building collective resilience. It’s an attempt to find each other and turn shared anxiety into shared action.
 
-Let's collaborate on a better future together.
+Let’s collaborate on a better future together.
