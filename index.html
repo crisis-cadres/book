@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crisis Cadres: Engineering Resilience</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #111827; /* Dark blue-gray */
+        color: #d1d5db; /* Light gray text */
+      }
+      .hero-bg {
+        background-color: #0c121e;
+      }
+      .brand-orange {
+        color: #dd6b20;
+      }
+      .brand-teal {
+        color: #319795;
+      }
+      .section {
+        padding: 6rem 1rem;
+      }
+      .nav-link {
+        transition: color 0.3s;
+      }
+      .nav-link:hover {
+        color: #dd6b20;
+      }
+      .cta-button {
+        transition: background-color 0.3s, transform 0.3s;
+      }
+      .cta-button:hover {
+        transform: translateY(-2px);
+      }
+      .social-icon:hover {
+        transform: scale(1.1);
+        color: #dd6b20;
+      }
+      .book-cover {
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+        transition: transform 0.5s ease-in-out;
+      }
+      .book-cover:hover {
+        transform: rotateY(10deg) rotateX(2deg) scale(1.02);
+      }
+    </style>
+  </head>
+  <body class="antialiased">
+    <!-- Navigation -->
+    <nav
+      id="navbar"
+      class="bg-gray-900/80 backdrop-blur-md p-4 fixed w-full z-50 top-0 border-b border-gray-800"
+    >
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-3xl font-bold text-white">Crisis Cadres</a>
+        <div class="hidden md:flex space-x-6 text-gray-300">
+          <a href="#summary" class="nav-link">Summary</a>
+          <a href="#authors" class="nav-link">Authors</a>
+          <a href="book.html" class="nav-link">Read Online</a>
+          <a href="#download" class="nav-link">Download</a>
+          <a href="#get-involved" class="nav-link">Get Involved</a>
+        </div>
+        <button id="mobile-menu-button" class="md:hidden text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-4 6h4"
+            />
+          </svg>
+        </button>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden mt-4">
+        <a
+          href="#summary"
+          class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700 rounded"
+          >Summary</a
+        >
+        <a
+          href="#authors"
+          class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700 rounded"
+          >Authors</a
+        >
+        <a
+          href="book.html"
+          class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700 rounded"
+          >Read Online</a
+        >
+        <a
+          href="#download"
+          class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700 rounded"
+          >Download</a
+        >
+        <a
+          href="#get-involved"
+          class="block py-2 px-4 text-sm text-gray-300 hover:bg-gray-700 rounded"
+          >Get Involved</a
+        >
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-bg pt-32 pb-16 md:pt-48 md:pb-24">
+      <div class="container mx-auto px-4 text-center md:text-left">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="md:col-span-1">
+            <h1
+              class="text-4xl md:text-6xl font-black text-white leading-tight mb-4"
+            >
+              Crisis Cadres
+            </h1>
+            <h2 class="text-2xl md:text-3xl font-semibold brand-orange mb-6">
+              Engineering Resilience
+            </h2>
+            <p class="text-lg text-gray-400 mb-8 max-w-xl mx-auto md:mx-0">
+              A blueprint for building self-sufficient communities that thrive
+              in the face of collapse. Rather than scaping by alone, we're
+              engineering resilience together.
+            </p>
+            <div
+              class="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4"
+            >
+              <a
+                href="book.html"
+                class="cta-button bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-8 rounded-lg text-lg inline-block"
+                >Read Online Now</a
+              >
+              <a
+                href="#download"
+                class="cta-button bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-8 rounded-lg text-lg inline-block"
+                >Get PDF Version</a
+              >
+            </div>
+          </div>
+          <div class="md:col-span-1 flex justify-center">
+            <a href="book.html">
+              <img
+                src="/images/cover-image.png"
+                alt="Crisis Cadres Book Cover"
+                class="book-cover rounded-lg w-2/3 md:w-full max-w-sm"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Summary Section -->
+      <section id="summary" class="section bg-gray-900">
+        <div class="container mx-auto px-4">
+          <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-white">
+              The Case for Resilience
+            </h2>
+            <p class="text-lg text-gray-400 mt-4 max-w-3xl mx-auto">
+              The old world is dying. This book is a manual for those who refuse
+              to leave the future to chance.
+            </p>
+          </div>
+          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+            <!-- Pillar 1 -->
+            <div class="bg-gray-800 p-6 rounded-lg">
+              <h3 class="text-2xl font-bold brand-teal mb-3">Production</h3>
+              <p class="text-gray-400">
+                Turning scarcity into surplus. Soil into food, waste into fuel.
+              </p>
+            </div>
+            <!-- Pillar 2 -->
+            <div class="bg-gray-800 p-6 rounded-lg">
+              <h3 class="text-2xl font-bold brand-teal mb-3">Procurement</h3>
+              <p class="text-gray-400">
+                Obtaining and managing resources through strategic foresight.
+              </p>
+            </div>
+            <!-- Pillar 3 -->
+            <div class="bg-gray-800 p-6 rounded-lg">
+              <h3 class="text-2xl font-bold brand-teal mb-3">Education</h3>
+              <p class="text-gray-400">
+                Cultivating practical skills, not dead theories.
+              </p>
+            </div>
+            <!-- Pillar 4 -->
+            <div class="bg-gray-800 p-6 rounded-lg">
+              <h3 class="text-2xl font-bold brand-teal mb-3">Security</h3>
+              <p class="text-gray-400">
+                Securing the means of survival through confident preparedness.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Author Bio Section -->
+      <section id="authors" class="section">
+        <div class="container mx-auto px-4">
+          <div class="grid md:grid-cols-3 gap-12 items-center">
+            <div class="md:col-span-1 flex justify-center">
+              <img
+                src="/images/salish-sea.png"
+                alt="Author"
+                class="rounded-full w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-gray-700"
+              />
+            </div>
+            <div class="md:col-span-2">
+              <h2 class="text-4xl font-bold text-white mb-4">
+                About the Authors
+              </h2>
+
+              <p class="text-lg text-gray-400 mb-4">
+                The Salish Sea Cadre consists of systems thinkers, practical
+                theorists, and advocates for community-led resilience. With a
+                backgrounds in entrepreneurship, engineering, and sustainable
+                systems design, our work focuses on creating actionable
+                frameworks that empower groups to build autonomous,
+                self-sufficient, and equitable futures.
+              </p>
+              <p class="text-lg text-gray-400">
+                Crisis Cadres is the culmination of years of research and
+                hands-on experimentation, offering a pragmatic roadmap for
+                anyone who believes that the best way to predict the future is
+                to build it ourselves.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Download Section -->
+      <section id="download" class="section bg-gray-900">
+        <div class="container mx-auto px-4 text-center">
+          <h2 class="text-4xl font-bold text-white">Get Your Copy</h2>
+          <p class="text-lg text-gray-400 mt-4 max-w-2xl mx-auto">
+            Download the complete e-book in PDF format to read offline, or
+            continue reading the HTML version online.
+          </p>
+          <div
+            class="mt-8 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6"
+          >
+            <a
+              href="/pdf/crisis-cadres.pdf"
+              class="cta-button bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-10 rounded-lg text-xl inline-block"
+            >
+              Download PDF
+            </a>
+            <a
+              href="book.html"
+              class="cta-button bg-gray-700 hover:bg-gray-600 text-white font-bold py-4 px-10 rounded-lg text-xl inline-block"
+            >
+              Read Online
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Get Involved Section -->
+      <section id="get-involved" class="section">
+        <div class="container mx-auto px-4 text-center">
+          <h2 class="text-4xl font-bold text-white">Get Involved</h2>
+          <p class="text-lg text-gray-400 mt-4 max-w-2xl mx-auto">
+            Crisis Cadres operates like an open source project. See our chapter
+            on how the project itself operates to learn how you can get involved
+            or share your perspectives.
+          </p>
+          <div class="mt-8">
+            <a
+              href="/book.html#chapter-the-crisis-cadres-project"
+              class="cta-button bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-10 rounded-lg text-xl inline-block"
+            >
+              Contribute
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer & Socials -->
+    <footer id="socials" class="bg-gray-900 py-12">
+      <div class="container mx-auto px-4 text-center text-gray-400">
+        <!-- <p class="mb-6">Connect with Crisis Cadres</p> -->
+        <div class="flex justify-center space-x-6 mb-8">
+          <!-- <a href="#" class="social-icon" aria-label="Twitter">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+              />
+            </svg>
+          </a>
+
+          <a href="#" class="social-icon" aria-label="Patreon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.22,6.36a5.83,5.83,0,0,0-5.83,5.82c0,3.22,2.61,5.83,5.83,5.83s5.83-2.61,5.83-5.83A5.83,5.83,0,0,0,15.22,6.36ZM2.94,21.75H6.23V6.36H2.94Z"
+              />
+            </svg>
+          </a>
+
+          <a href="#" class="social-icon" aria-label="Website">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"
+              />
+            </svg>
+          </a> -->
+        </div>
+        <p>
+          &copy; <span id="year"></span> Crisis Cadres. All Rights Reserved.
+        </p>
+        <p class="text-sm text-gray-600 mt-2"></p>
+      </div>
+    </footer>
+
+    <script>
+      // JavaScript for smooth scrolling and mobile menu
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href");
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+              targetElement.scrollIntoView({
+                behavior: "smooth",
+              });
+            }
+          });
+        });
+
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById("mobile-menu-button");
+        const mobileMenu = document.getElementById("mobile-menu");
+        mobileMenuButton.addEventListener("click", function () {
+          mobileMenu.classList.toggle("hidden");
+        });
+      });
+    </script>
+  </body>
+</html>

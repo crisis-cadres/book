@@ -1,0 +1,31 @@
+# Degrees of Planning
+
+## A Survival Roadmap for a Hotter World
+
+The science is clear. We're no longer debating whether the planet will warm, but by how much—and what that means for human survival. With global temperatures already at around 1.2-1.3°C above pre-industrial levels, the 1.5°C guardrail of the Paris Agreement is slipping out of reach. What comes next isn't just a matter of hotter summers or stronger storms. We're faced with a cascading series of destabilizations that will reshape where we can live, what we can eat, and whether societies can hold together. For those committed to resilience, understanding these thresholds extends far beyond a simple academic exercise.
+
+### 1°C Warming: The Discomfort Zone (You are here)
+
+This is the warming we've already locked in—the baseline for a world that's just starting to feel the strain. Heatwaves that once seemed freakish are now routine, punishing vulnerable populations and straining energy grids. Droughts gnaw at farmland, wildfires torch entire regions, and coral reefs bleach into dead zones. Extreme weather, from hurricanes to floods, no longer feels exceptional.
+
+For communities serious about resilience, this is the time to harden defenses. Passive cooling, fire-resistant landscaping, and early-warning systems become the first line of survival. Drought-resistant crops and water capture systems turn scarcity into manageable problems. The message is to adapt now, because the next thresholds won't be so forgiving.
+
+### 2°C Warming: The Tipping Point
+
+Blow past 1.5°C, and we enter a world where systems start to buckle. Major breadbaskets falter under heat stress, turning food security into a losing bet. Water scarcity grips entire regions, from the American Southwest to the Mediterranean, while rising seas swallow coastlines. Coral reefs crumble, taking fisheries with them, and heatwaves make it impossible to sweat, pushing bodies towards the lethal limits of human endurance. Climate migration shifts from a trickle to a flood.
+
+Here, resilience means radical self-sufficiency. Local food systems like greenhouses, shade-grown crops, and community grain reserves become lifelines. Water is no longer a commodity but a currency, extended by swales and cisterns, and carefully rationed via meaures. Coastal communities face brutal choices: retreat or drown. The social fabric strains as displaced populations seek refuge, demanding both solidarity and hardened borders.
+
+### 3°C Warming: The Breaking Point
+
+At 3°C, the Earth's systems begin to unravel. The Amazon collapses, permafrost belches increasing levels of methane, and once-fertile plains turn into cracked wastelands. Tropical regions become uninhabitable for months at a time, and ocean currents stutter, scrambling weather patterns. Governments falter; supply chains snap. A gradual adjustment to change becomes full on disaster triage.
+
+Survival hinges on controlled-environment agriculture, water monopolies, and fortified settlements. For those who can afford it, vertical farms and lab-grown protein replace open fields. Communities cluster in high-altitude zones or polar fringes where life remains barely viable. Trust erodes; security tightens. The old world is gone, and the new one is a fight for scraps.
+
+### 4°C and Beyond: The Unthinkable
+
+Beyond 3°C, the projections read like dystopian fiction. At 4°C, billions face lethal heat, entire nations become uninhabitable, and wars erupt over water, arable land, and the last cool places. By 5°C, wet-bulb temperatures make outdoor labor deadly, fisheries collapse, and food systems disintegrate. At 6°C, we approach the stuff of mass extinction.
+
+In this unravelling world, resilience looks less like intentional communities and more like bunkers. Underground arcologies, geoengineered skies, and Antarctic outposts become the last, best bets of civilization. The goal shifts from thriving to merely preserving knowledge like seeds, DNA banks, and the bare blueprint of civilization, for whatever comes after.
+
+Every fraction of a degree matters, but the window for gentle adaptation is closing. The smart money isn't on stopping at 2°C. We're preparing for 3°C, bracing for 4°C, hoping we never see beyond that, but preparing for it nonetheless. For those building resilience, the task is to localize, fortify, and adapt.

@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crisis Cadres</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #111827;
+        color: #d1d5db;
+      }
+      body p,
+      ul {
+        margin: 14px 0;
+      }
+      ul li p {
+        margin: 4px 0;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-weight: 600;
+        color: #f9fafb;
+      }
+      #book-content h1 {
+        font-size: 1.875rem; /* 30px */
+        font-weight: 700;
+        margin-top: 0.75rem; /* 12px */
+        margin-bottom: 0.75rem; /* 12px */
+      }
+      #book-content h2 {
+        font-size: 1.5rem; /* 24px */
+        font-weight: 700; /* bold */
+        margin-top: 0.5rem; /* 8px */
+        margin-bottom: 0.5rem; /* 8px */
+      }
+      #book-content h3 {
+        font-size: 1.25rem; /* 20px */
+        font-weight: 700; /* bold */
+        margin-top: 0.25rem; /* 4px */
+        margin-bottom: 0.25rem; /* 4px */
+      }
+      #book-content ul {
+        list-style-type: disc; /* Creates bullet points */
+        padding-left: 1.25rem; /* Adds left padding (pl-5 = 1.25rem) */
+        margin-top: 1rem; /* Adds top margin (my-4 = 1rem) */
+        margin-bottom: 1rem; /* Adds bottom margin (my-4 = 1rem) */
+      }
+      #book-content ol {
+        list-style: decimal;
+        padding-left: 2rem;
+      }
+      .prose {
+        max-width: 80ch;
+      }
+      .prose a {
+        color: #60a5fa;
+      }
+      .prose strong {
+        color: #d1d5db;
+      }
+      .prose blockquote {
+        border-left-color: #4b5563;
+        color: #9ca3af;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #1f2937;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #4b5563;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6b7280;
+      }
+      .nav-link.active {
+        background-color: #374151;
+        color: #f9fafb;
+        font-weight: 500;
+      }
+      .loader {
+        border: 3px solid #f3f3f3;
+        border-top: 3px solid #3498db;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        animation: spin 1s linear infinite;
+        margin: 20px auto;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      body.light-mode {
+        background-color: #f9fafb;
+        color: #4b5563;
+      }
+      body.light-mode h1,
+      body.light-mode h2,
+      body.light-mode h3,
+      body.light-mode h4,
+      body.light-mode h5,
+      body.light-mode h6 {
+        color: #111827;
+      }
+      body.light-mode .prose a {
+        color: #3b82f6;
+      }
+      body.light-mode .prose strong {
+        color: #4b5563;
+      }
+      body.light-mode .prose blockquote {
+        border-left-color: #d1d5db;
+        color: #6b7280;
+      }
+      body.light-mode ::-webkit-scrollbar-track {
+        background: #e5e7eb;
+      }
+      body.light-mode ::-webkit-scrollbar-thumb {
+        background: #9ca3af;
+      }
+      body.light-mode ::-webkit-scrollbar-thumb:hover {
+        background: #6b7280;
+      }
+      body.light-mode .nav-link.active {
+        background-color: #e5e7eb;
+        color: #111827;
+      }
+      body.light-mode #sidebar {
+        background-color: #ffffff;
+        border-color: #e5e7eb;
+      }
+      body.light-mode #theme-toggle {
+        background-color: #ffffff;
+        color: #4b5563;
+        border: 1px solid #d1d5db;
+      }
+      img {
+        max-width: 100%;
+        max-height: 800px;
+        margin: 0 auto;
+        padding: 14px 0;
+      }
+    </style>
+  </head>
+  <body class="antialiased">
+    <button
+      id="theme-toggle"
+      type="button"
+      class="fixed top-4 right-4 z-50 p-2 rounded-full bg-gray-800 hover:bg-gray-700 transition-colors duration-200"
+      title="Toggle light/dark mode"
+    >
+      <svg
+        id="theme-toggle-dark-icon"
+        class="w-5 h-5"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+        ></path>
+      </svg>
+      <svg
+        id="theme-toggle-light-icon"
+        class="w-5 h-5 hidden"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+        ></path>
+      </svg>
+    </button>
+
+    <aside
+      id="sidebar"
+      class="fixed top-0 left-0 z-40 w-64 h-screen bg-gray-800/95 backdrop-blur-sm transition-transform -translate-x-full lg:translate-x-0 border-r border-gray-700"
+    >
+      <div class="h-full px-3 py-4 overflow-y-auto">
+        <h1 class="text-3xl font-bold text-white mb-4 px-2">
+          <a href="/">Crisis Cadres</a>
+        </h1>
+        <ul id="nav-menu" class="space-y-1 font-medium">
+          <!-- Nav links populated by js -->
+        </ul>
+      </div>
+    </aside>
+
+    <div class="lg:ml-64">
+      <main id="main-content" class="p-4 sm:p-6 md:p-8">
+        <button
+          id="menu-toggle"
+          type="button"
+          class="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-400 rounded-lg lg:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-600 fixed top-0 left-0 z-50"
+        >
+          <span class="sr-only">Open sidebar</span>
+          <svg
+            class="w-6 h-6"
+            aria-hidden="true"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              fill-rule="evenodd"
+              d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"
+            ></path>
+          </svg>
+        </button>
+
+        <div class="prose prose-invert mx-auto">
+          <header id="top-title" class="text-center mb-16">
+            <div class="text-4xl md:text-5xl font-bold tracking-tight">
+              Crisis Cadres
+            </div>
+          </header>
+
+          <div id="book-content">
+            <div class="text-center py-8">
+              <p>Select a chapter from the navigation menu to begin reading.</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <button
+      id="back-to-top"
+      class="fixed bottom-5 right-5 z-50 p-3 bg-blue-500/50 text-white rounded-full shadow-lg hover:bg-blue-500 transition-opacity duration-300 opacity-0 pointer-events-none"
+    >
+      <svg
+        class="w-6 h-6"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 15l7-7 7 7"
+        ></path>
+      </svg>
+    </button>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const bookContentEl = document.getElementById("book-content");
+        const navMenuEl = document.getElementById("nav-menu");
+        const sidebarEl = document.getElementById("sidebar");
+        const menuToggleBtn = document.getElementById("menu-toggle");
+        const backToTopBtn = document.getElementById("back-to-top");
+        const themeToggleBtn = document.getElementById("theme-toggle");
+        const themeToggleDarkIcon = document.getElementById(
+          "theme-toggle-dark-icon"
+        );
+        const themeToggleLightIcon = document.getElementById(
+          "theme-toggle-light-icon"
+        );
+
+        let currentChapter = null;
+        let chapters = [];
+
+        function toggleTheme() {
+          const isDark = document.body.classList.toggle("light-mode");
+          localStorage.setItem("color-theme", isDark ? "light" : "dark");
+
+          themeToggleDarkIcon.classList.toggle("hidden", isDark);
+          themeToggleLightIcon.classList.toggle("hidden", !isDark);
+
+          if (isDark) {
+            themeToggleBtn.classList.remove(
+              "bg-gray-800",
+              "text-gray-300",
+              "hover:bg-gray-700"
+            );
+            themeToggleBtn.classList.add(
+              "bg-white",
+              "text-gray-700",
+              "hover:bg-gray-100"
+            );
+          } else {
+            themeToggleBtn.classList.add(
+              "bg-gray-800",
+              "text-gray-300",
+              "hover:bg-gray-700"
+            );
+            themeToggleBtn.classList.remove(
+              "bg-white",
+              "text-gray-700",
+              "hover:bg-gray-100"
+            );
+          }
+        }
+
+        if (
+          localStorage.getItem("color-theme") === "light" ||
+          (!localStorage.getItem("color-theme") &&
+            window.matchMedia("(prefers-color-scheme: light)").matches)
+        ) {
+          document.body.classList.add("light-mode");
+          themeToggleDarkIcon.classList.add("hidden");
+          themeToggleLightIcon.classList.remove("hidden");
+          themeToggleBtn.classList.remove(
+            "bg-gray-800",
+            "text-gray-300",
+            "hover:bg-gray-700"
+          );
+          themeToggleBtn.classList.add(
+            "bg-white",
+            "text-gray-700",
+            "hover:bg-gray-100"
+          );
+        }
+
+        themeToggleBtn.addEventListener("click", toggleTheme);
+
+        async function loadTOC() {
+          try {
+            const response = await fetch("toc.md");
+            if (!response.ok)
+              throw new Error("Failed to load table of contents");
+
+            const tocText = await response.text();
+            const chapterLines = tocText
+              .split("\n")
+              .filter((line) => line.trim());
+
+            chapters = chapterLines.map((line) => {
+              const title = line.trim();
+              const filename = title
+                .toLowerCase()
+                .replace(/[''"“”]/g, "")
+                .replace(/[^a-z0-9]+/g, "-")
+                .replace(/^-|-$/g, "");
+              return { title, filename };
+            });
+
+            navMenuEl.innerHTML = "";
+
+            chapters.forEach((chapter, index) => {
+              const li = document.createElement("li");
+              li.innerHTML = `
+            <a href="#chapter-${chapter.filename}" data-filename="${chapter.filename}" class="nav-link block px-2 py-2 rounded-md hover:bg-gray-700 hover:text-white transition-colors duration-150">
+              ${chapter.title}
+            </a>
+          `;
+              navMenuEl.appendChild(li);
+            });
+
+            document.querySelectorAll(".nav-link").forEach((link) => {
+              link.addEventListener("click", async (e) => {
+                e.preventDefault();
+                const filename = e.target.getAttribute("data-filename");
+                await loadChapter(filename);
+                updateActiveNavLink(filename);
+
+                window.history.pushState(
+                  { chapter: filename },
+                  "",
+                  `#chapter-${filename}`
+                );
+
+                if (window.innerWidth < 1024) {
+                  sidebarEl.classList.add("-translate-x-full");
+                  sidebarEl.classList.remove("translate-x-0");
+                }
+              });
+            });
+
+            handleInitialHash();
+          } catch (error) {
+            console.error("Error loading table of contents:", error);
+            bookContentEl.innerHTML = `
+          <div class="text-red-400 p-4 bg-gray-800 rounded-lg">
+            <p>Error loading table of contents. Please try again later.</p>
+          </div>
+        `;
+          }
+        }
+
+        async function loadChapter(filename, scrollToId = null) {
+          if (currentChapter === filename && !scrollToId) return;
+
+          currentChapter = filename;
+
+          if (filename == "crisis-cadres") {
+            document.getElementById("top-title").classList.add("hidden");
+          } else {
+            document.getElementById("top-title").classList.remove("hidden");
+          }
+
+          if (
+            bookContentEl.innerHTML === "" ||
+            !bookContentEl.querySelector(`[data-chapter="${filename}"]`)
+          ) {
+            bookContentEl.innerHTML = `
+          <div class="text-center py-8">
+            <div class="loader"></div>
+            <p>Loading chapter...</p>
+          </div>
+        `;
+          }
+
+          try {
+            if (!bookContentEl.querySelector(`[data-chapter="${filename}"]`)) {
+              const response = await fetch(`html/${filename}.html`);
+              if (!response.ok) throw new Error("Chapter not found");
+
+              const content = await response.text();
+              const currentIndex = chapters.findIndex(
+                (ch) => ch.filename === filename
+              );
+              const isLastChapter = currentIndex === chapters.length - 1;
+
+              let nextChapterLink = "";
+              if (!isLastChapter) {
+                const nextChapter = chapters[currentIndex + 1];
+                nextChapterLink = `
+              <div class="mt-16 pt-8 border-t">
+                <a href="#chapter-${nextChapter.filename}" 
+                   class="next-chapter-link text-blue-400 hover:text-blue-300 font-medium transition-colors duration-150">
+                  Next: ${nextChapter.title} →
+                </a>
+              </div>
+            `;
+              }
+
+              bookContentEl.innerHTML = `
+            <div data-chapter="${filename}">
+              ${content}
+              ${nextChapterLink}
+            </div>
+          `;
+
+              const nextLink =
+                bookContentEl.querySelector(".next-chapter-link");
+              if (nextLink) {
+                nextLink.addEventListener("click", async (e) => {
+                  e.preventDefault();
+                  const nextFilename = nextLink
+                    .getAttribute("href")
+                    .replace("#chapter-", "");
+                  await loadChapter(nextFilename);
+                  updateActiveNavLink(nextFilename);
+                  window.history.pushState(
+                    { chapter: nextFilename },
+                    "",
+                    `#chapter-${nextFilename}`
+                  );
+                });
+              }
+            }
+
+            if (scrollToId) {
+              const element = document.getElementById(scrollToId);
+              if (element) {
+                setTimeout(() => {
+                  element.scrollIntoView({ behavior: "smooth" });
+                  // Keep the full original hash including chapter part
+                }, 100);
+              }
+            } else {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+
+            setupObservers();
+          } catch (error) {
+            console.error("Error loading chapter:", error);
+            bookContentEl.innerHTML = `
+          <div class="text-red-400 p-4 bg-gray-800 rounded-lg">
+            <p>Error loading chapter. Please try again later.</p>
+          </div>
+        `;
+          }
+        }
+
+        function updateActiveNavLink(filename) {
+          document.querySelectorAll(".nav-link").forEach((link) => {
+            link.classList.remove("active");
+            if (link.getAttribute("data-filename") === filename) {
+              link.classList.add("active");
+            }
+          });
+        }
+
+        function handleInitialHash() {
+          const fullHash = window.location.hash;
+          if (!fullHash) {
+            if (chapters.length > 0) {
+              loadChapter(chapters[0].filename);
+              updateActiveNavLink(chapters[0].filename);
+            }
+            return;
+          }
+
+          // Handle compound links like #chapter-filename#header-id
+          if (fullHash.includes("#", 1)) {
+            // Check for second # after the first
+            const [chapterPart, headerId] = fullHash.substring(1).split("#");
+            if (chapterPart.startsWith("chapter-")) {
+              const chapter = chapterPart.replace("chapter-", "");
+              const chapterExists = chapters.some(
+                (ch) => ch.filename === chapter
+              );
+              if (chapterExists) {
+                loadChapter(chapter, headerId);
+                updateActiveNavLink(chapter);
+                return;
+              }
+            }
+          }
+          // Handle regular chapter links
+          else if (fullHash.startsWith("#chapter-")) {
+            const chapter = fullHash.replace("#chapter-", "");
+            const chapterExists = chapters.some(
+              (ch) => ch.filename === chapter
+            );
+            if (chapterExists) {
+              loadChapter(chapter);
+              updateActiveNavLink(chapter);
+              return;
+            }
+          }
+          // Handle header links in current/default chapter
+          else if (fullHash) {
+            const headerId = fullHash.substring(1);
+            const defaultChapter = chapters[0].filename;
+            loadChapter(defaultChapter, headerId);
+            updateActiveNavLink(defaultChapter);
+            // Keep the original hash
+            window.history.replaceState({}, "", fullHash);
+            return;
+          }
+
+          // Default to first chapter if no valid hash
+          if (chapters.length > 0) {
+            loadChapter(chapters[0].filename);
+            updateActiveNavLink(chapters[0].filename);
+          }
+        }
+
+        function setupObservers() {
+          const navLinks = navMenuEl.querySelectorAll(".nav-link");
+          const observer = new IntersectionObserver(
+            (entries) => {
+              entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                  navLinks.forEach((link) => {
+                    link.classList.remove("active");
+                    if (link.getAttribute("data-filename") === currentChapter) {
+                      link.classList.add("active");
+                    }
+                  });
+                }
+              });
+            },
+            { rootMargin: "-50% 0px -50% 0px" }
+          );
+
+          bookContentEl.querySelectorAll("div[id]").forEach((section) => {
+            observer.observe(section);
+          });
+        }
+
+        window.addEventListener("hashchange", function () {
+          const fullHash = window.location.hash;
+          if (!fullHash) return;
+
+          // Handle compound links
+          if (fullHash.includes("#", 1)) {
+            const [chapterPart, headerId] = fullHash.substring(1).split("#");
+            if (chapterPart.startsWith("chapter-")) {
+              const chapter = chapterPart.replace("chapter-", "");
+              loadChapter(chapter, headerId);
+              updateActiveNavLink(chapter);
+              return;
+            }
+          }
+          // Handle chapter links
+          else if (fullHash.startsWith("#chapter-")) {
+            const chapter = fullHash.replace("#chapter-", "");
+            loadChapter(chapter);
+            updateActiveNavLink(chapter);
+          }
+          // Handle header links
+          else {
+            const headerId = fullHash.substring(1);
+            const currentChapterFromContent = bookContentEl
+              .querySelector("[data-chapter]")
+              ?.getAttribute("data-chapter");
+            if (currentChapterFromContent) {
+              const element = document.getElementById(headerId);
+              if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+              }
+            } else {
+              const defaultChapter = chapters[0].filename;
+              loadChapter(defaultChapter, headerId);
+              updateActiveNavLink(defaultChapter);
+            }
+          }
+        });
+
+        menuToggleBtn.addEventListener("click", () => {
+          sidebarEl.classList.toggle("-translate-x-full");
+          sidebarEl.classList.toggle("translate-x-0");
+        });
+
+        window.addEventListener("scroll", () => {
+          if (window.scrollY > 300) {
+            backToTopBtn.classList.remove("opacity-0", "pointer-events-none");
+          } else {
+            backToTopBtn.classList.add("opacity-0", "pointer-events-none");
+          }
+        });
+
+        backToTopBtn.addEventListener("click", () => {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+
+        loadTOC();
+      });
+    </script>
+  </body>
+</html>
