@@ -428,7 +428,7 @@
 
           try {
             if (!bookContentEl.querySelector(`[data-chapter="${filename}"]`)) {
-              const response = await fetch(`html/${filename}.html`);
+              const response = await fetch(`output/html/${filename}.html`);
               if (!response.ok) throw new Error("Chapter not found");
 
               const content = await response.text();

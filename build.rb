@@ -51,7 +51,7 @@ def wrap_html(content, title = "Crisis Cadres")
       rel="stylesheet"
     />
     <style>
-      #{File.read("css/pdf.css")}
+      #{File.read("pdf.css")}
     </style>
   </head>
   <body class="antialiased">
@@ -78,7 +78,7 @@ chapters.each do |chapter|
   doc = Kramdown::Document.new(md_contents)
   html_output = doc.to_html
 
-  File.write("html/#{parameterize(chapter)}.html", html_output)
+  File.write("output/html/#{parameterize(chapter)}.html", html_output)
   html_pages << html_output
 
   toc_titles_as_links << "<div><a href='##{parameterize(chapter)}'>#{chapter}</a></div>" unless chapter == "Crisis Cadres"
@@ -102,5 +102,5 @@ kit = PDFKit.new(wrap_html(joined_pages),
                  print_media_type: false,
                  root_url: "http://localhost:#{port}/")
 
-kit.to_file("pdf/crisis-cadres.pdf")
+kit.to_file("output/pdf/crisis-cadres.pdf")
 server.shutdown
