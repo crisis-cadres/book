@@ -62,7 +62,7 @@ This ensures the work remains free and open for all to use, while preventing it 
 
 ## Get in Touch
 
-If you'd like to get in contact with the maintainers of this project, feel free to do that one of two ways. Either leave a comment on the project in GitHub, or open an issue under the "Issues" tab. We want all communication to be public and for the benefit of everyone.
+Leave a comment on the project, or open an issue under the "Issues" tab to get in touch with our cadre.
 
 ## The Work Begins
 
