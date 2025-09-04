@@ -10,9 +10,11 @@ To be clear, practicing "political compartmentalization" does not mean our work 
 
 Most contemporary political discourse offers minimal practical value for resilience building. Engaging in it carries significant risks:
 
-- **Culture-War Quicksand:** While equity and inclusion are operational necessities (e.g., ensuring disabled access to shelters), abstract debates over terminology or ideological purity tests derail urgent work.
-- **Partisan Noise:** Arguing over a politician's latest statement or media scandal drains time and energy. These topics are amplified precisely because they divide, making collective action harder.
-- **Irrelevant Historical Disputes:** While history informs us, deep dives into complex ideological battles (e.g., socialism vs. capitalism) offer little value when the immediate task is preparing for a grid failure or wildfire.
+**Culture-War Quicksand:** While equity and inclusion are operational necessities (e.g., ensuring disabled access to shelters), abstract debates over terminology or ideological purity tests derail urgent work.
+
+**Partisan Noise:** Arguing over a politician's latest statement or media scandal drains time and energy. These topics are amplified precisely because they divide, making collective action harder.
+
+**Irrelevant Historical Disputes:** While history informs us, deep dives into complex ideological battles (e.g., socialism vs. capitalism) offer little value when the immediate task is preparing for a grid failure or wildfire.
 
 The guiding question for any discussion must be: **“Does this directly inform a practical resilience strategy?”** If not, it is a distraction from the mission.
 
@@ -20,8 +22,9 @@ The guiding question for any discussion must be: **“Does this directly inform 
 
 The difference between a divisive debate and a crucial strategic discussion is its connection to tangible action. Consider the issue of ableism:
 
-- **Unproductive (Grandstanding):** A lengthy, abstract debate on the theoretical origins of ableist language, demanding a new lexicon and litigating past slights. This derails work.
-- **Productive (Building):** “Our evacuation plan requires carrying a 20kg pack 3km. This excludes members with mobility issues. I move we task the Logistics committee with building lightweight equipment carts and amend the plan. This is a critical failure point we must solve.”
+**Unproductive (Grandstanding):** A lengthy, abstract debate on the theoretical origins of ableist language, demanding a new lexicon and litigating past slights. This derails work.
+
+**Productive (Building):** “Our evacuation plan requires carrying a 20kg pack 3km. This excludes members with mobility issues. I move we task the Logistics committee with building lightweight equipment carts and amend the plan. This is a critical failure point we must solve.”
 
 One is an academic exercise; the other identifies a weakness and proposes a material solution. We address injustice not by perfecting rhetoric, but by building systems so robust and inclusive they render old inequalities obsolete.
 
