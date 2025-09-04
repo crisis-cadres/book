@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 
+# A simple script you can run locally to turn all the markdown files in chapters/ into html and pdf formats
+# usage: `ruby build.rb`
+
 require 'bundler'
 require 'byebug'
 require 'fileutils'
@@ -87,6 +90,7 @@ end
 html_pages.insert(1, wrap_html("<div class='text-3xl mb-4'>Table of Contents</div>" + toc_titles_as_links.join))
 joined_pages = html_pages.join("<div style='page-break-before: always'></div>")
 
+# We need to start a server here so that pdf kit can grab image assets from it
 port = 9091
 server = HTTPServer.new(:Port => port,  :DocumentRoot => Dir.pwd)
 trap("INT"){ server.shutdown }

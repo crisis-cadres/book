@@ -60,6 +60,10 @@ These freedoms are granted under the following terms.
 
 This ensures the work remains free and open for all to use, while preventing it from being co-opted for profit and ensuring that all future versions remain just as open.
 
+## Get in Touch
+
+If you'd like to get in contact with the maintainers of this project, feel free to do that one of two ways. Either leave a comment on the project in GitHub, or open an issue under the "Issues" tab. We want all communication to be public and for the benefit of everyone.
+
 ## The Work Begins
 
 This project is a hypothesis: that there are enough people out there who are tired of waiting, tired of the isolating narratives of individualism, and ready to start the hard work of building collective resilience. It’s an attempt to find each other and turn shared anxiety into shared action.
