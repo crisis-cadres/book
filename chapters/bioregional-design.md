@@ -16,7 +16,7 @@ A bioregion is defined by natural systems, not human decrees. Key characteristic
 
 Consider the Cascadia bioregion of the Pacific Northwest, defined by the Cascade Mountains and the Columbia River watershed; the Great Lakes bioregion, interconnected by its vast freshwater system; or the Sonoran Desert bioregion, characterized by its unique arid-adapted flora and fauna. Unlike nations, whose borders require constant enforcement and can shift with political tides, bioregions are self-evident through their ecological realities.
 
-![watershed-map](/assets/image3.jpg)
+![watershed-map](assets/image3.jpg)
 
 ## Why Organize Along Bioregional Lines?
 
