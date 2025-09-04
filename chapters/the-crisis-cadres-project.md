@@ -22,7 +22,7 @@ The entire manuscript is available for you to read, critique, and improve. We ar
 
 ## How to Contribute
 
-You do not need to be a software developer to contribute. The process is straightforward. Think of it as a shared document where you can suggest changes. First, visit the project's main page on GitHub, where the most up-to-date version of this guide will always be located: https://github.com/crisis-cadres/book. When you identify something you want to improve, such as a simple typo, an unclear sentence, a factual error, or an entire section you believe is missing, you can make a comment or suggest an edit.
+You do not need to be a software developer to contribute. The process is straightforward. Think of it as a shared document where you can suggest changes. First, visit the [project's main page on GitHub](https://github.com/crisis-cadres/book), where the most up-to-date version of this guide will always be located. When you identify something you want to improve, such as a simple typo, an unclear sentence, a factual error, or an entire section you believe is missing, you can make a comment or suggest an edit.
 
 The source files for this guide are under the "chapters" directory. On the GitHub page for each chapter, there is an "edit" button that looks like a pencil. Clicking this will allow you to make changes directly in your web browser. After making your edit, you will be asked to briefly describe what you did and why. The final step is to submit the "pull request." This is a formal suggestion which sends your proposed changes to the project maintainers, who will review them, possibly discuss them with you, and merge them into the main document if they align with the project's goals.
 
