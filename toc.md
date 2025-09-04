@@ -16,9 +16,9 @@ Education
 Security
 Governance
 Adding Members
+Essential Skills
 Bioregional Design
 Individualist Illusion
-Essential Skills
 Degrees of Planning
 When Empires Fall
 From Spark to Flame

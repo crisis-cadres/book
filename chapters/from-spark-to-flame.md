@@ -1,6 +1,6 @@
 # From Spark to Flame
 
-Building a resilient cadre isn't about grand manifestos or perfect blueprints—it starts with a handful of people looking at each other and saying, _"We can't keep doing this alone."_ That moment of shared recognition is the spark. It's time to fan the spark into something that lasts.
+Building a resilient cadre starts with a handful of people looking at each other and saying, _"We can't keep doing this alone."_ That moment of shared recognition is the spark. It's time to fan the spark into something that lasts.
 
 ## Igniting your Cadre
 

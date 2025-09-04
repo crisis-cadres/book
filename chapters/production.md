@@ -52,7 +52,7 @@ Climate-resilient methods include greenhouses to extend growing seasons, drought
 
 Furthermore, initiatives like propagating and nursing plants or trees can enhance long-term food security and even generate income. Things like nut trees are in high demand, and their seeds can be purchased and germinated with sporadic work efforts, making for an ideal side project.
 
-Beyond growing, preservation methods like canning**, **fermenting**, **and drying are crucial to extending harvests.
+Beyond growing, preservation methods like canning, fermenting, and drying are crucial to extending harvests.
 
 Cadres might also explore aquaponics and hydroponics for intensive, space-efficient production, or engage in small-scale animal husbandry for diverse food sources and skills.
 
@@ -74,13 +74,11 @@ Where new materials are scarce, salvage becomes an art (with help from Procureme
 
 Housing instability kills resilience. This is perhaps more towards the full employment end of the Crisis Continuum, but a Procurement Audit will almost always reveal the lion's share of expenses for a cadre going to rent or mortgage.
 
-Low-cost building techniques—earthbag construction, straw bale walls, timber framing—turn local materials into durable homes. Retrofitting existing structures can reinforce them against storms, fires, and power outages. And when disaster strikes, the ability to deploy emergency shelters can mean the difference between survival and suffering.
+Low-cost building techniques like earthbag construction, straw bale walls, and timber framing—turn local materials into durable homes. Retrofitting existing structures can reinforce them against storms, fires, and power outages. And when disaster strikes, the ability to deploy emergency shelters can mean the difference between survival and suffering.
 
 ### Energy & Utilities
 
-The modern world runs on a fragile web of centralized power. When it fails, you're literally in the dark.
-
-Decentralized energy reduces vulnerability. Solar panels on rooftops, micro-hydro systems in nearby streams, biogas digesters turning waste into fuel, all are viable options. But true resilience also demands manual backups: hand pumps for water, wood stoves for heat, mechanical tools that operate without electricity. The goal is not to reject modern technology, but to ensure it does not become a single point of failure.
+The modern world runs on a fragile web of centralized power. Decentralized energy reduces vulnerability. Solar panels on rooftops, micro-hydro systems in nearby streams, biogas digesters turning waste into fuel, all are viable options. But true resilience also demands manual backups: hand pumps for water, wood stoves for heat, mechanical tools that operate without electricity. The goal is not to reject modern technology, but to ensure it does not become a single point of failure.
 
 ### Medicine & Hygiene
 

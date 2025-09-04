@@ -12,43 +12,63 @@ What additional committees might your cadre require? The answer depends on local
 
 Here are some specialized committee areas that often emerge as a cadre develops:
 
-### Health & Wellness (Evolving from Education/Security)
+### Health & Wellness
+
+_Evolving from Education/Security_
 
 Focused on comprehensive well-being beyond basic first aid, this area covers medical preparedness (herbal medicine, crisis triage), mental resilience (peer support, stress management), preventative care (nutrition, fitness, hygiene), and disability/accessibility advocacy.
 
-### Housing & Infrastructure (Evolving from Production)
+### Housing & Infrastructure
+
+_Evolving from Production_
 
 Secure, sustainable, and communal shelter solutions fall under this domain, including sustainable building (tiny homes, earthships), maintenance/repair, energy systems (microgrids, passive heating/cooling), and emergency housing protocols. This committee could also explore community land trust development to collectively acquire and manage land for shared benefit.
 
-### Transportation & Logistics (Evolving from Procurement)
+### Transportation & Logistics
+
+_Evolving from Procurement_
 
 Ensuring mobility of people and goods while reducing fuel dependence involves bike/pedestrian networks, vehicle cooperatives (shared electric vehicles), supply route planning, and fuel reserve management.
 
-### Communication & Technology (From Multiple Committees)
+### Communication & Technology
+
+_From Multiple Committees_
 
 Reliable communication demands redundancy—mesh networks, radio, offline archives, low-powered computing, and cybersecurity.
 
-### Ecology & Land Stewardship (Evolving from Production)
+### Ecology & Land Stewardship
+
+_Evolving from Production_
 
 Healing and maintaining local ecosystems encompasses rewilding, water management (rain catchment, greywater systems), fire mitigation, and soil regeneration.
 
-### Childcare & Intergenerational (Evolving from Education)
+### Childcare & Intergenerational
+
+_Evolving from Education_
 
 Ensuring well-being across age groups includes cooperative parenting, youth education in survival skills, elder inclusion, and legacy planning.
 
-### Hospitality & Integration (Offshoot of Education/Security)
+### Hospitality & Integration
+
+_Offshoot of Education/Security_
 
 Managing interactions with newcomers and allies covers member onboarding, visitor protocols, refugee support, and cultural exchange. Isolation breeds fragility, but a system for structured intake can strengthen the cadre. This committee could also organize resilience gatherings combining skill-sharing, barter fairs, community feasts, and cultural activities to foster community cohesion.
 
-### Justice & Equity (Cross-cutting concern, potentially its own body)
+### Justice & Equity
+
+_Cross-cutting concern, potentially its own body_
 
 Ensuring fairness and anti-oppression within the cadre includes conflict mediation, power distribution audits, needs assessments, and anti-oppression work.
 
-### Memory & Archives (Offshoot of Education)
+### Memory & Archives
+
+_Offshoot of Education_
 
 Documenting survival lessons, preserving oral histories, and maintaining critical offline knowledge.
 
-### Scavenger & Salvage (Offshoot of Procurement/Production)
+### Scavenger & Salvage
+
+_Offshoot of Procurement/Production_
 
 Retrieving materials from junkyards and abandoned sites, repurposing scrap, and mapping local resources.
 
