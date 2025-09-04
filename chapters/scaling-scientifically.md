@@ -16,7 +16,7 @@ Robin Dunbar's research began with a simple observation: primate species with la
 
 - Contemporary researchers have observed the phenomenon in the natural size of personal social media networks and phone call patterns.
 
-![dunbars](assets/image1.jpg)
+![dunbars](/assets/image1.jpg)
 
 Dunbar's number reflects the cognitive load of what Dunbar calls "social grooming", i.e. the time, mental energy, and emotional investment required to build and maintain trust, reciprocity, and mutual understanding. Beyond this number, relationships tend to become more abstract or superficial, necessitating hierarchies, explicit rules, and formal enforcement mechanisms to compensate for the natural erosion of intimate social bonds.
 
