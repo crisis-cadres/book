@@ -51,7 +51,7 @@ def wrap_html(content, title = "Crisis Cadres")
       rel="stylesheet"
     />
     <style>
-      #{File.read("pdf.css")}
+      #{File.read("assets/pdf.css")}
     </style>
   </head>
   <body class="antialiased">

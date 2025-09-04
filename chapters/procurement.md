@@ -136,7 +136,7 @@ Beyond traditional purchasing and financial management, Procurement plays a vita
 
 To maximize success, Procurement collaborates with the other committees to craft compelling proposals, align projects with funder priorities, and ensure compliance with reporting requirements. This proactive approach turns grant writing into a strategic tool, enabling the cadre to leapfrog financial constraints and accelerate its transition toward regenerative systems.
 
-![funding-needs](/images/image2.png)
+![funding-needs](/assets/image2.png)
 
 _Image is from the United Nations Environment Programme's Adaptation Gap Report, 2021 showing areas they determined to be the most in need of funding for climate adaptation._
 
