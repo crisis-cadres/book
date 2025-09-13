@@ -42,29 +42,11 @@ _Evolving from Production_
 
 Healing and maintaining local ecosystems encompasses rewilding, water management (rain catchment, greywater systems), fire mitigation, and soil regeneration.
 
-### Childcare & Intergenerational
-
-_Evolving from Education_
-
-Ensuring well-being across age groups includes cooperative parenting, youth education in survival skills, elder inclusion, and legacy planning.
-
 ### Hospitality & Integration
 
 _Offshoot of Education/Security_
 
-Managing interactions with newcomers and allies covers member onboarding, visitor protocols, refugee support, and cultural exchange. Isolation breeds fragility, but a system for structured intake can strengthen the cadre. This committee could also organize resilience gatherings combining skill-sharing, barter fairs, community feasts, and cultural activities to foster community cohesion.
-
-### Justice & Equity
-
-_Cross-cutting concern, potentially its own body_
-
-Ensuring fairness and anti-oppression within the cadre includes conflict mediation, power distribution audits, needs assessments, and anti-oppression work.
-
-### Memory & Archives
-
-_Offshoot of Education_
-
-Documenting survival lessons, preserving oral histories, and maintaining critical offline knowledge.
+Managing interactions with newcomers and allies covers member onboarding, visitor protocols, refugee support, and cultural exchange. This committee could also organize resilience gatherings combining skill-sharing, barter fairs, community feasts, and cultural activities to foster community cohesion.
 
 ### Scavenger & Salvage
 

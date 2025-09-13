@@ -50,31 +50,31 @@ While forming a cooperative or non-profit has some advantages, it also comes wit
 
 There's also no reason you can't effectively operate as a cooperative through an internal operating agreement (see Governance), but do it under the aegis of a corporation or LLC. It's just more opaque to outsiders, be they bad actors or nosy government agencies.
 
-But a corporation or LLC has a legally mandated hierarchy (owners, officers, etc.) that is fundamentally incompatible with a governance model based on sortition, recallability, and horizontal committees. Isn't this a contradiction? A system will be needed to address this friction. Appointing individuals that hold these roles from the perspective of an outside observer is one option. From an internal governance perspective, you can still adhere strictly to your more egalitarian operating agreement. Perhaps corporate officers can act as tie breakers in a dispute, but in general they must operate in accordance with your private agreements (with strong recallability clauses to ensure compliance within cadre norms). Another option would be to just frequently reassign the burden of fulfilling the required roles. Just understand that there may be legal consequences for the chosen figureheads, e.g. in a lawsuit.
+Corporation or LLCs have legally mandated roles (owners, officers, etc.) that may be incompatible with a governance model based on sortition, recallability, and horizontal committees. A system will be needed to address this friction. One solution is appointing individuals that hold these roles temporarily. From an internal governance perspective, you can still adhere strictly to your more egalitarian operating agreement. Perhaps corporate officers can act as tie breakers in a dispute, but in general they must operate in accordance with your private agreements (with strong recallability clauses to ensure compliance within cadre norms). Understand that there may be legal consequences for the chosen figureheads, e.g. in a lawsuit.
 
 ## Strategic Business Categories
 
 When operating under scrutiny or in times of instability, certain types of businesses provide ideal cover while fulfilling practical needs. The following sectors offer both economic viability and strategic utility:
 
-- Disaster Recovery – Emergency planning, infrastructure repair, and crisis response services.
+- Disaster Recovery
 
-- Waste Management – Recycling, sanitation, and resource reclamation operations.
+- Waste Management
 
-- Agriculture & Farm Supplies – Seed distribution, livestock equipment, fertilizers, and soil amendments.
+- Agriculture & Farm Supplies
 
-- Controlled Environment Farming – Greenhouses, hydroponics, and irrigation systems for food security.
+- Controlled Environment Farming e.g. greenhouses and hydroponics
 
-- Renewable Energy – Solar installations, microgrid solutions, and off-grid power systems.
+- Renewable Energy
 
-- Food Production & Preservation – Pickling, canning, dehydration, and emergency rations.
+- Food Production & Preservation
 
-- Outdoor Survival Equipment – Tools, shelters, stoves, water filtration, and other wilderness gear.
+- Outdoor Survival Equipment
 
-- Fire Suppression & Safety – Fireproofing materials, extinguishers, and emergency training.
+- Fire Suppression & Safety
 
-- Medical & First Aid Supplies – Trauma kits, pharmaceuticals, and mobile clinic services.
+- Medical & First Aid Supplies
 
-- Apparel & Protective Gear – Durable clothing, work uniforms, and equipment.
+- Apparel & Protective Gear
 
 These enterprises blend necessity with discretion, allowing for resource stockpiling, logistical flexibility, and operational security, all while maintaining a low profile.
 

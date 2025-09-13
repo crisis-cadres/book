@@ -4,8 +4,6 @@
 
 The ability to produce life's necessities is the bedrock of true independence.
 
-Here in North America, we don't really deal in manufacturing or hard work to produce things of value as much as we used to. In fact, in many ways production is looked down on, despite being essential to resilience and life itself.
-
 Many political or organizing groups falter because they cannot offer their adherents anything tangible. Passion, ideology, and a political landscape increasingly focused on spite cannot mend a broken roof or fill an empty stomach.
 
 If a cadre is to endure—if it is to become more than a fleeting gathering of like-minded individuals—it must provide real, measurable security in a world where scarcity is no longer a distant threat but an encroaching reality.
@@ -16,7 +14,7 @@ This means focusing relentlessly on essentials.
 
 ## Making Things People Need
 
-Within Crisis Cadres, Production is not about crafting luxuries, indulging in vanity projects, or chasing profits. Its focus is unambiguous: prioritize what sustains life. Food, water, shelter, energy, tools, medicine—these are the foundations upon which resilience is built. A community that cannot produce them is perpetually one crisis away from collapse.
+Within Crisis Cadres, Production is not about crafting luxuries, indulging in vanity projects, or chasing profits. Its focus is unambiguous: prioritize what sustains life. Food, water, shelter, energy, tools, medicine—these are the foundations upon which resilience is built. A community that cannot produce is perpetually one crisis away from collapse.
 
 This principle demands discipline. It means resisting the allure of non-essential ventures and directing resources toward what truly matters. A garden before a gallery. A workshop before a web app. A functioning water system before anything else.
 
@@ -78,7 +76,7 @@ Low-cost building techniques like earthbag construction, straw bale walls, and t
 
 ### Energy & Utilities
 
-The modern world runs on a fragile web of centralized power. Decentralized energy reduces vulnerability. Solar panels on rooftops, micro-hydro systems in nearby streams, biogas digesters turning waste into fuel, all are viable options. But true resilience also demands manual backups: hand pumps for water, wood stoves for heat, mechanical tools that operate without electricity. The goal is not to reject modern technology, but to ensure it does not become a single point of failure.
+The modern world runs on a fragile web of centralized power. Decentralized energy reduces vulnerability. Solar panels on rooftops, micro-hydro systems in nearby streams, biogas digesters turning waste into fuel, all are viable options. But take care that manual backups are in place like hand pumps, wood stoves, and mechanical tools that can operate without electricity. Ensure a lack of energy does not present a single point of failure.
 
 ### Medicine & Hygiene
 
@@ -86,33 +84,25 @@ A health crisis can unravel a community faster than any shortage of food.
 
 A medicinal garden is the first line of defense. Yarrow for wounds, willow bark for pain, garlic and elderberry for immunity. Cadres may also choose to cultivate medicinal (and gourmet) mushrooms.
 
-Soap-making and alcohol distillation ensure sanitation, while composting toilets turn waste from a problem into a resource. Stocked first aid kits with sutures, tourniquets, and antibiotics, mean the difference between a treated injury and a life-threatening infection.
+Soap-making and alcohol distillation ensure sanitation, while composting toilets turn waste from a problem into a resource. Stocked first aid kits with sutures, tourniquets, and antibiotics, can make all the difference when you need them.
 
 ### Things People Need
 
-Think about things you _have_ to buy or can't live without. If you need them, others will too.
+Think about things you _have_ to buy or can't live without. If you need them, others will too, making them excellent targets for Production.
 
 - Clothing and footwear
-
 - Safety equipment
-
 - Transportation services
-
 - Supplies for babies and children
-
 - Elder care
-
 - Furniture and home goods
-
 - Medical services
-
 - Plumbing, electrical, and other trades like automotive mechanics
-
 - Fiber and textiles including things like raw wool and flax
 
 ## Production Defuses Scarcity Mentality
 
-While scarcity fuels desperation; Production can replace that desperation with security.
+While scarcity fuels desperation, Production can replace that desperation with security.
 
 Production ensures that communities that have access to food, tools, and shelter need not act out of desperation. Shared workshops distribute the burden of labor. Skill exchanges turn individual weaknesses into collective strengths. And surplus goods—whether extra vegetables, handmade tools, or stored energy—become bargaining chips in trade, transforming resilience into economic leverage.
 
@@ -134,7 +124,7 @@ It is also the difference between a group that talks about resilience and one th
 
 ## On Automation
 
-While the initial hype around AI has resulted in frivolous tools like chatbots and image generators, it would be a mistake to completely dismiss the underlying technology. The foundational shift is that for the first time, we can use natural, human language to command complex actions. This breakthrough is revitalizing the field of robotics, pushing it toward embodiment via the fusion of vision, language, and action.
+While initial hype around AI has resulted in frivolous tools like chatbots and image generators, it is perhaps a mistake to completely dismiss the underlying technological breakthrough. For the first time in history, we can use natural human language to command real-world actions from our machines. This breakthrough is revitalizing the field of robotics, pushing it toward embodiment via the fusion of vision, language, and action.
 
 Contrary to dystopian fantasies where billionaires monopolize automation, this technology will almost certainly become more widely accessible. Open-source AI models are already approaching the quality of corporate versions, and hardware is rapidly becoming more affordable. Companies are offering capable humanoid robot chassis for prices well within the reach of a serious, organized cadre.
 
@@ -142,9 +132,9 @@ For a cadre's Production committee, the implications are staggering. A robot wor
 
 A romantic or Luddite approach is simply not a viable option, regardless of how morally correct it might be. Technology is a tool, and those who refuse to wield it will be at the mercy of those who do. A forward-looking cadre must be prepared to acquire and deploy this technology swiftly, before states and corporations attempt to control it through sanctions and proprietary systems. Such control efforts are likely to be porous and ultimately fail.
 
-Procurement must monitor the market for robotics platforms and be prepared for acquisition at the moment a feasible solution becomes available. Education must develop the skills to program, maintain, and repair these systems. Security must ensure proper safeguards are in place.
+Procurement must monitor the market and be prepared for acquisition at the moment a feasible solution becomes available. Education must maintain the skills to make the most of these systems, while Security ensures proper safeguards are in place.
 
-Viewed this way, automation is not a threat but a potential tool for liberation.
+Viewed this way, automation might represent a threat but also a potential tool for liberation.
 
 ## The Advantage of Disregarding Profitability
 
