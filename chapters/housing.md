@@ -1,7 +1,5 @@
 # Housing
 
-## Hidden Homes to Greenhouse Villages
-
 Housing has become increasingly expensive, making secure and affordable shelter a primary challenge for most. If Procurement audits expenditures, they will nearly always reveal housing as the single largest financial drain. This reality demands a fundamental rethinking of how we live. Traditional models of individual homeownership and landlord-tenant relationships are increasingly failing to provide stability. Therefore, innovative housing solutions are therefore paramount for any group serious about long-term survival and autonomy.
 
 Housing is the cornerstone of personal and collective security. Dependence on volatile rental markets or crushing mortgage debt creates immense vulnerability. A resilient cadre must therefore strive to:
@@ -27,7 +25,7 @@ While typically too overtly political, identifying and occupying long-term vacan
 
 ### Hidden Dwellings
 
-Camouflaged homes that blend into the landscape or existing structures avoid unwanted attention. This might involve earth-sheltered homes on rural land or, more audaciously, tiny houses or modular units concealed within unassuming structures like barns, warehouses, or even large commercial greenhouses.
+Camouflaged homes that blend into the landscape or existing structures avoid unwanted attention. This might involve earth-sheltered homes on rural land or, more audaciously, tiny houses or modular units concealed within unassuming structures like barns, warehouses, or even large commercial greenhouses. Vehicle sharing becomes essential here, as an overabundance of cars betrays the presence of multiple residents.
 
 ### Leveraging Loopholes
 
@@ -79,7 +77,7 @@ The concepts of the agrihood extends far beyond simple subsistence; for a savvy 
 
 A cadre with a surplus of secure housing holds immense power. This surplus becomes a strategic tool for outreach, recruitment, and political action.
 
-In line with the principle of Surplus as Recruitment (see Production), having more shelter capacity than immediately needed provides the ability to offer safe, temporary housing to allies displaced by personal crises or larger disasters. Offering a refugee not just a cot in a gym but a home in a prepared community is the kind of direct, powerful organizing that grows a movement.
+In line with the principle of Surplus as Recruitment, having more shelter capacity than immediately needed provides the ability to offer safe, temporary housing to allies displaced by personal crises or larger disasters. If someone is fleeing a crisis or disaster, offering them shelter within in a prepared community is the kind of direct, powerful organizing that grows a movement.
 
 On the far end of the crisis continuum lies the necessity of holding territory. An advanced cadre can use its resources to strategically influence or even revitalize a small municipality. Strategic acquisitions followed by coordinated migration can give even a small cadre a powerful voice in local government. This can lead to influence over essential emergency services and infrastructure. It doesn't need to be hostile. Presenting a struggling town with a well-thought-out plan to turn an abandoned strip mall into a revenue-generating agri-village with shops, classrooms, and event spaces could be welcomed. Dying towns with empty buildings and desperate governments are perfect targets for this kind of regenerative action.
 
