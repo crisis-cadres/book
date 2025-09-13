@@ -102,7 +102,7 @@ Think about things you _have_ to buy or can't live without. If you need them, ot
 
 ## Production Defuses Scarcity Mentality
 
-While scarcity fuels desperation; Production can replace that desperation with security.
+While scarcity fuels desperation, Production can replace that desperation with security.
 
 Production ensures that communities that have access to food, tools, and shelter need not act out of desperation. Shared workshops distribute the burden of labor. Skill exchanges turn individual weaknesses into collective strengths. And surplus goods—whether extra vegetables, handmade tools, or stored energy—become bargaining chips in trade, transforming resilience into economic leverage.
 
@@ -124,7 +124,7 @@ It is also the difference between a group that talks about resilience and one th
 
 ## On Automation
 
-While hype around AI has resulted in frivolous tools like chatbots and image generators, it is perhaps a mistake to completely dismiss the underlying technological breakthrough. For the first time, we can use natural, human language to command complex actions. This breakthrough is revitalizing the field of robotics, pushing it toward embodiment via the fusion of vision, language, and action.
+While initial hype around AI has resulted in frivolous tools like chatbots and image generators, it is perhaps a mistake to completely dismiss the underlying technological breakthrough. For the first time in history, we can use natural human language to command real-world actions from our machines. This breakthrough is revitalizing the field of robotics, pushing it toward embodiment via the fusion of vision, language, and action.
 
 Contrary to dystopian fantasies where billionaires monopolize automation, this technology will almost certainly become more widely accessible. Open-source AI models are already approaching the quality of corporate versions, and hardware is rapidly becoming more affordable. Companies are offering capable humanoid robot chassis for prices well within the reach of a serious, organized cadre.
 
